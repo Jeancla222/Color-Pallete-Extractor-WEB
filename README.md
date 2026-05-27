@@ -20,7 +20,7 @@ Aplikasi web untuk mengekstrak **warna paling dominan** dari sebuah gambar mengg
 ### Lokal
 ```bash
 # 1. Clone repository
-git clone [link github]
+git clone https://github.com/Jeancla222/Color-Pallete-Extractor-WEB.git
 cd color-palette-extractor
 
 # 2. Install dependencies
