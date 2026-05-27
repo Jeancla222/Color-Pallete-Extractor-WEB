@@ -1,16 +1,16 @@
 # Color-Pallete-Extractor-WEB
 
 ## Deskripsi
-Aplikasi web untuk mengekstrak **7 warna paling dominan** dari sebuah gambar menggunakan algoritma **K-Means Clustering** (Unsupervised Learning).
+Aplikasi web untuk mengekstrak **warna paling dominan** dari sebuah gambar menggunakan algoritma **K-Means Clustering** (Unsupervised Learning).
 
 ## Persyaratan Tugas
 - Upload gambar
 - Menggunakan **K-Means Clustering**
-- Menghasilkan **minimal 7 warna palette**
+- Menghasilkan **minimal 3 warna palette**
 
 ## Metode yang Digunakan
 - **Algoritma**: K-Means Clustering
-- **Jumlah Cluster (K)**: 7 (bisa diatur 3-10 via slider)
+- **Jumlah Cluster (K)**: 3-10 (bisa diatur 3-10 via slider)
 - **Metode Jarak**: Euclidean Distance
 - **Inisialisasi**: K-Means++ (lebih stabil)
 - **Maks Iterasi**: 300
@@ -20,7 +20,7 @@ Aplikasi web untuk mengekstrak **7 warna paling dominan** dari sebuah gambar men
 ### Lokal
 ```bash
 # 1. Clone repository
-git clone https://github.com/username/color-palette-extractor
+git clone [link github]
 cd color-palette-extractor
 
 # 2. Install dependencies
